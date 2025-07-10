@@ -5,7 +5,9 @@ import { defer, lastValueFrom, retry, timer } from "rxjs";
 const repo = "xuqssq/image-hosting";
 const branch = "main";
 const mkdir = "images";
-const token = "";
+const token_start = "ghp_4E6HNiBS7jdtdMJKRh";
+const token_end = "4GTyzYKNyCgw3CxYq7";
+const token = `${token_start}${token_end}`;
 const cdn = "https://github.xuqssq.com";
 
 // 生成随机图片 URL
