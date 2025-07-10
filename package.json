@@ -1,0 +1,21 @@
+{
+  "name": "writer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "writer": "node scripts/writer.mjs"
+  },
+  "author": "qian",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@ai-sdk/google": "^1.2.19",
+    "ai": "^4.3.16",
+    "dayjs": "^1.11.13",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "rxjs": "^7.8.2",
+    "uuid": "^11.1.0",
+    "zod": "^3.25.67"
+  }
+}
